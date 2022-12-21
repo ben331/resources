@@ -1,7 +1,6 @@
 #!/bin/bash
 
 #Actualizaciones
-sudo su
 sudo apt update -y
 sudo apt upgrade -y
 

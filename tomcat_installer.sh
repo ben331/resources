@@ -29,7 +29,7 @@ sudo chmod g+x conf
 sudo chown -R tomcat webapps/ work/ temp/ logs/
 
 #Crear un archivo de unidad systemd  /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre
-sudo nano /etc/systemd/system/tomcat.service
+cd /etc/systemd/system
 sudo wget https://raw.githubusercontent.com/ben331/resources/main/tomcat.service
 sudo systemctl daemon-reload
 cd /opt/tomcat/bin
